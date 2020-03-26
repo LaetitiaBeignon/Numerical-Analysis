@@ -1,4 +1,7 @@
 rd(x)=(-1)**k(0.d1d2)2**(e1e2-1)
+rd(x)= s     *m      *2⁽e-1)
+
+#My version
 We know that e belongs to [0;(2**2)-1] that is to say [0;3]
 We also know that di belongs to [0;1]
 
@@ -11,3 +14,21 @@ And exaclty the ssame with the sign +
 
 The smallest number is -(0.1)2**-1
 The largest number is (0.11)2**2
+
+#Prof version
+s={-1;1}
+e={0;1;2;3}
+e-1={-1,0,1,2}
+2^⁽e-1)={1/2,1,2,4}
+m= sum_j=1,2 (bit_j 2^(-j) ) = bit_1*2^(-1) + bit_2*2^(-2) = bit_1 * 1/2 + bit_2*1/4
+m = {0, 1/4, 1/2, 3/4}
+
+max = 1*3/4*4 =3
+smallest number greater than 0 : 1*1/4*1/2=1/8
+
++0
+-0
+
+min = -3
+
+
