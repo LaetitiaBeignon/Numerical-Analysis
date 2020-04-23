@@ -1,0 +1,43 @@
+We need to solve (manually) using Gaussian substitution this set of equations : 
+(1) 4x1 − x2 + x3 = 8
+(2) 2x1 + 5x2 + 2x3 = 3
+(3) x1 + 2x2 + 4x3 = 11
+
+If we multiply equation (2) by -2 and we add equation (1), and if we multiply equation (3) by -2 and we add equation (2) 
+we have the following set : 
+(1) 4x1 - x2 + x3 = 8
+(2) -4x1 -10x2 -4x3 + 4x1 -x2 + x3 = -11x2 - 3x3 = 2
+(3) -2x1 -4x2 -8x3 + 2x1 + 5x2 + 2x3 = x2 - 6x3 = -19
+
+If we multiply equation (3) by 11 and we add equation (2) we have the following set : 
+(1) 4x1 - x2 + x3 = 8
+(2) -11x2 - 3x3 = 2
+(3) 11x2 - 66x3 -11x2 -3x3 = -69x3 = -207
+
+So finally we have the matrix A = [[4, -1, 1],  and we have the vector b = [8, 2, -207]
+                                   [0, -11, -3],
+                                   [0, 0, -69]]
+So finally x3 = -207/-69 = 3, x2 = -1 and x1 = 1
+
+We need to solve (manually) using Gaussian substitution this set of equations : 
+(1) 4x1 − x2 + 2x3 = 9
+(2) 2x1 + 4x2 - x3 = -5
+(3) x1 + x2 - 3x3 = -9
+
+If we multiply equation (2) by -2 and we add equation (1), and if we multiply equation (3) by -2 and we add equation (2) 
+we have the following set : 
+(1) 4x1 − x2 + 2x3 = 9
+(2) -4x1 -8x2 + 2x3 + 4x1 − x2 + 2x3 = -9x2 + 4x3 = 19
+(3) -2x1 - 2x2 + 6x3 + 2x1 + 4x2 - x3 = 2x2 + 5x3 = 13
+
+If we multiply equation (3) by 9 and equation (2) by -2 and if we soustrac both we have the following set :
+(1) 4x1 − x2 + 2x3 = 9
+(2) -9x2 + 4x3 = 19
+(3) 18x2 + 45x3 - 18x2 + 8x3 = 53x3 = 155
+
+So finally we have the matrix A = [[4, -1, 1],  and we have the vector b = [9, 19, 155]
+                                   [0, -9, 4],
+                                   [0, 0, 53]]
+So finally x3 = 155/53 = 3, x2 = -1 and x1 = 1
+
+
