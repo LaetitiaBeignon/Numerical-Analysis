@@ -25,6 +25,13 @@ I4=sum((ni-ni-1)*f((ni-1+ni)/2) for i=1:n
 So, I4= (2-1)*f(3/2) + (3-2)*f(5/2) + (4-3)*f(7/2)
       = 20.75
       
+Now we need to find the error for each above calculation : 
+a) abs((21.5-21)/21) * 100 = 2.38 %
+b) abs((29-21)/21) * 100 = 38.10 %
+c) abs((14-21)/21) * 100 = 33.33 %
+d) abs((20.75-21)/21) * 100 = 1.19 %
+      
+We can deduce that the method "trapezoidal" is the best one, the approximation is better with this method.
       
       
  
